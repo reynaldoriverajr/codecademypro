@@ -1,0 +1,20 @@
+const input = 'Can i get a peanut butter and jelly sandwich?'
+const vowels = ['a', 'e', 'i', 'o', 'u'] //Whales don't consider "y" a vowel.
+
+let resultArray = []
+
+for (let i = 0; i < input.length; i++) {
+  // console.log(`array is:' ${input[i]}`)
+  for (let j = 0; j < vowels.length; j++) {
+    // console.log(`array is:' ${input[j]}`)
+    input[i] === vowels[j].push
+  }
+    if (input[i] === 'e') {
+      resultArray.push(input[i]);
+    }
+      if (input[i] === 'u') {
+      resultArray.push(input[i]);
+  }
+}
+
+console.log(resultArray.join('').toUpperCase());
